@@ -30,11 +30,11 @@ const User = () => {
     }, [username]);
 
     if (error) {
-        return <div>{error}</div>;
+        return <div><h2>{error}</h2></div>;
     }
 
     if (!user) {
-        return <div>Loading...</div>;
+        return <div><h2>Loading...</h2></div>;
     }
 
     const formatDate = (theDate) => {
