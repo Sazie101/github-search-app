@@ -1,0 +1,166 @@
+:root {
+    --input-width: 360px;
+}
+
+h1, h2, h3, p, li, a, input {
+    font-family: "Poppins", "Nunito Sans", Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin: auto; 
+}
+
+main {
+    height: 100dvh; 
+}
+
+.holder {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.profile {
+    height: 100dvh; 
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.profile div {
+    text-align: center;
+}
+
+.profileImg {
+    display: grid;
+    place-items: center;
+}
+
+.profileImg img {
+    border-radius: 50%;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+    height: 100%; 
+}
+
+.search img {
+    filter: invert(1); 
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #211f2b; 
+    text-align: center;
+    border: 1px solid #3c3a47; 
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 7px; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.search input:focus {
+    outline: none;
+    border-color: #5a5a6e; 
+    box-shadow: 0 0 10px rgba(90, 90, 110, 0.8); 
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+  
+.user-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+  
+.user-container img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+  
+.user-container p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+  
+.user-container a {
+    color: #5ed2c4;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.goToPage {
+    border: 1px solid #5ed2c4;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.goToPage:hover {
+    background-color: #5ed2c4;
+    color: #fff;
+}
+  
+.user-container h3 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #5ed2c4;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+  
+.user-container ul {
+    list-style: none;
+    padding: 0;
+    width: 700px;
+}
+  
+.user-container ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #212029;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.user-container ul li div p {
+    padding-left: 20px; 
+}
+  
+.user-container ul li a {
+    color: #5ed2c4;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.user-container ul li a:hover {
+    text-decoration: underline;
+}
+  
+.user-container ul li p {
+    margin: 0;
+    color: #b3b3b3;
+    font-size: 0.9em;
+}
